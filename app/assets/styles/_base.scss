@@ -281,10 +281,7 @@ a:active{
           }
         }
 
-        
-        &.github a:before {
-          @extend .icon-github;
-        }
+
         &.external a:before {
           @extend .icon-external;
         }
@@ -361,18 +358,6 @@ a:active{
       @extend .visually-hidden;
     }
 
-    &.github:before {
-      @extend .icon-github;
-    }
-    &.twitter:before {
-      @extend .icon-twitter;
-    }
-    &.facebook:before {
-      @extend .icon-facebook;
-    }
-    &.email:before {
-      @extend .icon-plane;
-    }
   }
 }
 
