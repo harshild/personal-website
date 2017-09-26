@@ -31,12 +31,12 @@
     // ////////////////////////////////////////////////
     // Additional tracking for google analytics.
     // All the external links not tracked by something else. (gat-*) class.
-    docSelect('a[rel="external"]:not([class*="gat-"])').forEach(function (item) {
-      item.addEventListener('click', function () {
-        var dest = this.getAttribute('href');
-        ga('send', 'event', 'Link', 'External', dest);
-      });
-    });
+    // docSelect('a[rel="external"]:not([class*="gat-"])').forEach(function (item) {
+    //   item.addEventListener('click', function () {
+    //     var dest = this.getAttribute('href');
+    //     ga('send', 'event', 'Link', 'External', dest);
+    //   });
+    // });
 
     // Project modal was opened
     docSelect('.gat-proj-modal-open').forEach(function (item) {

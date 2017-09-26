@@ -8,6 +8,15 @@ html, body {
   line-height: 1.5;
 }
 
+.socialicons{
+  font-size: 2.5rem !important;
+  color: #FFFFFF;
+}
+
+.fa{
+  color: #FFFFFF;
+}
+
 body {
   background: #FFFF;
   color: $base-font-color;
@@ -271,6 +280,7 @@ a:active{
             margin-right: 0.5rem;
           }
         }
+
         
         &.github a:before {
           @extend .icon-github;
