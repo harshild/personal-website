@@ -6,13 +6,7 @@ var plumber = require('gulp-plumber');
 var clean = require('gulp-clean');
 var uglify = require('gulp-uglifyjs');
 var jshint = require('gulp-jshint');
-var ghPages = require('gulp-gh-pages');
 
-//githubDeploy
-gulp.task('deploy', function() {
-    return gulp.src('./dist/**/*')
-        .pipe(ghPages({url:"https://github.com/harshild/harshild.github.io.git"},{branch:"master"}));
-});
 
 // Script handling.
 gulp.task('scripts:build', function(done) {
